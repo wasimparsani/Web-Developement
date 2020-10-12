@@ -1,0 +1,18 @@
+p{
+    
+
+    border-color: cornflowerblue;
+    color: crimson;
+    background-color: darkkhaki;
+    font-style: italic;
+    font-family: 'Acme', sans-serif;
+    font-stretch: semi-expanded;
+    font-weight: bolder;
+    font-size: 1.3cm;
+    
+}
+
+h3{
+    font-family: monospace;
+    font-size: 50px;
+}

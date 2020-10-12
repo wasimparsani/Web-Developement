@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignments</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background: rgb(88, 241, 229);
+            font-family: 'Lobster', cursive;
+        }
+        .parent{
+            width: 900px;
+            background: rgb(248, 94, 235);
+            border: 3px solid rgb(19, 7, 179);
+            margin: 33px auto; 
+
+        }
+        
+        .child{
+            border: 3px solid red;
+            margin: 12px 8px;
+            padding: 12px 68px;
+            background: rgb(240, 166, 6);
+
+                  
+        }
+
+        #first{
+            float: left;
+            width: 48%;
+        }
+
+        #Second{
+            float: left;
+            width: 48%;
+        }
+
+        #third{
+            float: left;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div id="first" class="child">
+            <h2>First</h2>
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, deserunt, quae minima optio architecto totam debitis excepturi id recusandae dolorum quibusdam ipsa, vero ducimus officia voluptates! Culpa deleniti autem odit voluptates iste ducimus pariatur.</p>
+        </div>
+        <div id="Second" class="child">
+            <h2>Second</h2>
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, deserunt, quae minima optio architecto totam debitis excepturi id recusandae dolorum quibusdam ipsa, vero ducimus officia voluptates! Culpa deleniti autem odit voluptates iste ducimus pariatur.</p>
+        </div>
+        <div id="third" class="child">
+            <h2>third</h2>
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, deserunt, quae minima optio architecto totam debitis excepturi id recusandae dolorum quibusdam ipsa, vero ducimus officia voluptates! Culpa deleniti autem odit voluptates iste ducimus pariatur.</p>
+        </div>
+    </div>
+</body>
+</html>

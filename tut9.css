@@ -1,0 +1,33 @@
+/* body{
+    background-image: url(wasim.jpg);    
+    background-repeat: no-repeat;
+    background-size: 39%;
+    background-position-x: right;
+    background-color: #000000;
+} */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} */
+
+.c1{
+    padding: 77px;
+    margin: 15px;
+    background-color: crimson;
+    border: 4px solid #ffeb3b;
+    border-radius: 22px;
+    box-sizing: border-box;
+    font-size: 0.8cm;
+
+}
+
+.c2{
+    font-family: cursive;
+    font-size: 1.7cm;
+    color: yellow;
+}
+ 
+ 
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+    <style>
+    .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.child {
+    /* flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
+    /* If we don't want the items to stretch: */
+  /* flex: 0 1 150px; */
+    /* If we do want the items to stretch: */
+  flex: 1 1 150px;
+  margin: 5px;
+  
+     /* etc. */
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
+}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+      </div>  
+</body>
+</html>

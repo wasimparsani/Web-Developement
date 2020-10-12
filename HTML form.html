@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document and HTML Forms</title>
+    <style>
+    .parent{
+    display: grid;
+    place-items: center;
+    background: rgb(5 180 128 / 52%);
+    /* width: 1600px;
+    height: 720px; */
+    /* resize: both;
+    overflow: auto; */
+
+    }
+
+    .child{
+    padding: 0.5rem;
+    border-radius: 40px;
+    border: 1px solid rgb(247, 190, 104);
+    background: rgb(247, 190, 104);
+    font-size: 1rem;
+    text-align: center;
+}
+
+    body {
+    font-family: cursive;
+    }
+        
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+    <div class="child">
+    <h2 >This is HTML Forms</h2>
+    <form action="backend.php">
+        <label for="n1"> NAME </label>
+        <div><input type="text" name="myname" id="n1"></div><br>
+        <label for="e1">EMAIL ID : </label>
+        <div><input type="email" name="mymail" id="e1"></div><br>
+        <label for="n2">PHONE NO : </label>
+        <div><input type="number" name="myno" id="n2"></div><br>
+        <div>Are you Under Graduate? : <input type="checkbox" name="check"></div><br>
+        <div> MALE<input type="radio" name="my gender"> &nbsp;&nbsp;&nbsp;&nbsp; FEMALE<input type="radio"
+                name="my gender"></div><br>
+        <label for="d1">Date Of Birth :</label>
+        <div> <input type="date" name="date" id="d1"></div><br>
+        <label for="c1">COUNTRY</label>
+        <div>
+            <select name="mycountry" id="c1">
+                <option value="ind">INDIA</option>
+                <option value="usa">USA</option>
+                <option value="op">UK</option>
+                <option value="dubai">DUBAI</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="f1"> Any Feedback : </label>
+            <textarea name="feedback" cols="40" rows="10" id="f1"></textarea>
+        </div><br>
+        <div><input type="submit" value="SUBMIT"> <input type="reset" value="RESET"></div>
+    </form>
+    </div>
+    </div>
+</body>
+
+</html>
